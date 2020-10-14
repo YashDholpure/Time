@@ -12,7 +12,7 @@ win.geometry('200x130')
 win.iconbitmap(r"C:\Users\yashd\Downloads\Custom-Icon-Design-Flatastic-10-Clock.ico")
 List=time.asctime().split(' ')
 
-days=['Sunday','Monday','Tuesday','wednesday','Thursday','Friday','Saturday']
+days=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
 months=['January','February','March','April','May','June','July','August','September','October','November','December']
 obj1=re.compile(f'{List[0]}.+')
 obj2=re.compile(f'{List[1]}.+')
